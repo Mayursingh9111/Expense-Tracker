@@ -38,7 +38,7 @@ const sidebar = document.getElementById("sidebar");
 
     function checkLogin() {
       const loggedIn = sessionStorage.getItem("loggedIn");
-      if (loggedIn) {
+      if (!loggedIn) {
         window.location.href = "home.html";
       }
     }
