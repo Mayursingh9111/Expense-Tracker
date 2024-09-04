@@ -3,8 +3,8 @@ const sidebar = document.getElementById("sidebar");
     const menuBtn = document.getElementById("menu-btn");
     const closeBtn = document.getElementById("close-btn");
     const dashboardHeader = document.getElementById("dashboard-header");
-    const closeTourBtn = document.querySelector(".tour");
-    const tourVideo = document.getElementById("tourVideo");
+    // const closeTourBtn = document.querySelector(".tour");
+    // const tourVideo = document.getElementById("tourVideo");
 
 
     // document.addEventListener("DOMContentLoaded", () => {
@@ -37,7 +37,7 @@ const sidebar = document.getElementById("sidebar");
     }
 
     function checkLogin() {
-      const loggedIn = sessionStorage.getItem("loggedIn");
+      // const loggedIn = sessionStorage.getItem("loggedIn");
       if (!loggedIn) {
         window.location.href = "home.html";
       }
