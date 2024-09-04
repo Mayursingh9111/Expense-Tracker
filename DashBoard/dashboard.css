@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background: linear-gradient(111.8deg, rgb(0, 104, 155) 19.8%, rgb(0, 173, 239) 92.1%);
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 30px;
@@ -41,7 +41,7 @@ h1 {
 
 .balance h2 {
     font-size: 1.8rem;
-    color: #2e7d32;
+    color: #a2a8a3;
 }
 
 .section {
