@@ -37,7 +37,7 @@ const sidebar = document.getElementById("sidebar");
     }
 
     function checkLogin() {
-      // const loggedIn = sessionStorage.getItem("loggedIn");
+      const loggedIn = sessionStorage.getItem("loggedIn");
       if (!loggedIn) {
         window.location.href = "home.html";
       }

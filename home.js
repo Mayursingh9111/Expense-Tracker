@@ -41,6 +41,7 @@ function login() {
     const storedUser = JSON.parse(localStorage.getItem('user'));
 
     if (storedUser && username === storedUser.username && password === storedUser.password) {
+        sessionStorage.setItem('loggedIn', 'true');
         alert('Login successful!');
         // Redirect to the main expense tracker page or reveal the app content
         window.location.href = "index.html"; // Example redirect
