@@ -37,13 +37,13 @@ This Expense Tracker application helps users easily manage and track their expen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/expense-tracker.git
+   git clone https://github.com/Mayursingh9111/Expense-Tracker.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd expense-tracker
+   cd Expense-Eracker
    ```
-3. Open `index.html` in your browser to use the application.
+3. Open `home.html` in your browser to use the application.
 
 ## **Usage**
 
@@ -63,10 +63,4 @@ This Expense Tracker application helps users easily manage and track their expen
 
 Contributions are welcome! Feel free to submit pull requests or open issues to improve the project.
 
-## **License**
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## **Contact**
-
-For any inquiries or feedback, reach out at [your-email@example.com](mailto:your-email@example.com).
